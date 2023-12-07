@@ -45,7 +45,7 @@ function getPrompts() {
   if (confirm("Do you want your password to contain lowercase letters?")) {
     allChars = allChars.concat(lowerCase);
   }
-  if (confirm("Do you want your password to contain upper letters?")) {
+  if (confirm("Do you want your password to contain uppercase letters?")) {
     allChars = allChars.concat(upperCase);
   }
   if (confirm("Do you want your password to contain numbers?")) {
